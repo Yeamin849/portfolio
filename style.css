@@ -1,0 +1,317 @@
+*{
+  margin:0px;
+  padding :0px;
+}
+ul{
+  list-style: none;
+}
+
+
+/**************************************************************************  
+                      header design start from hear
+***************************************************************************/
+#particles{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url(image/background.gif);
+  background-position: center;
+  background-size: cover;
+}
+.pg-canvas{
+  display: none;
+ position: absolute;
+}
+.content{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+
+.content{
+  color: aliceblue;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 110px;
+}
+
+.content h1,h4{
+  text-align: center;
+
+}
+.content h1{
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 120px;
+  color: bisque;
+  font-weight: bolder;
+  text-shadow: 0 0 3px #c49494, 0 0 5px #9f9fe0;
+  font-size: 45px;
+}
+.content h4{
+  text-align: left;
+  padding-left: 150px;
+  color: beige;
+  font-style: italic;
+  text-shadow: 0 0 3px #e2c7c7;
+}
+
+.content h2{
+  padding-left: 80px;
+  padding-top: 60px;
+  margin: 0px;
+  text-shadow: 0 0 3px #e2c7c7;
+  font-size: 35px;
+  }
+.content h3{
+    padding-left: 150px;
+    text-shadow: 0 0 3px #e2c7c7;
+    padding-bottom: 100px;
+    font-size: 35px;
+    }
+/**************************************************************************  
+                      header design end hear
+***************************************************************************/
+
+/**************************************************************************  
+                     About area design start from hear
+***************************************************************************/
+.aobut-me{
+  background-color: rgb(210, 204, 247);
+  
+}
+.about-img{
+  
+  padding-top: 35px;
+}
+
+.about{
+  padding-top: 100px;
+}
+.about hr{
+  width: 10%;
+  border: 2px solid rgb(223, 171, 150);
+}
+/**************************************************************************  
+                     About area design end hear
+***************************************************************************/
+
+/**************************************************************************  
+                      Skilled circul plugin design start from hear
+***************************************************************************/
+
+.skilled{
+  background-color: rgb(199, 219, 238);
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 0 99%);
+}
+.skill-ifo{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 50px;
+}
+.skill-ifo hr{
+  width: 10%;
+  border: 2px solid rgb(223, 171, 150);
+  margin: auto;
+}
+.skill-ifo p{
+  margin-top: 5px;
+  font-size: 18px;
+}
+.progressbar {
+  
+  width: 100px;
+  margin: 25px;
+}
+
+.circle {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+  
+  position: relative;
+  text-align: center;
+}
+
+.circle canvas {
+  vertical-align: middle;
+}
+
+.circle div {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+}
+.circle p{
+  font-size: 20px;
+ margin-top: 10px;
+ font-weight: 600;
+ font-family: 'Times New Roman', Times, serif;
+ color: rgb(34, 34, 34);
+ padding-bottom: 100px;
+}
+
+.circle strong i {
+  font-style: normal;
+  font-size: 0.6em;
+  font-weight: normal;
+}
+
+.circle span {
+  display: block;
+  color: #aaa;
+  margin-top: 12px;
+}
+
+/**************************************************************************  
+                      Skilled circul plugin design end hear
+***************************************************************************/
+
+
+/**************************************************************************  
+                      Gellary design start from hear
+***************************************************************************/
+.gellary-content{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 10px;
+}
+.gellary-content p{
+  margin-top: 5px;
+  font-size: 18px;
+  padding-bottom: 30px;
+  
+}
+
+.images{
+  height: 100%;
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 10px 0px;
+}
+.gellary{
+  padding-bottom: 30px;
+}
+/**************************************************************************  
+                      Gellary design end hear
+***************************************************************************/
+
+/**************************************************************************  
+                      footer design start from hear
+***************************************************************************/
+#footer{
+  background: cornflowerblue;
+  clip-path: polygon(0 7%, 100% 0, 100% 100%, 0% 100%);
+  
+}
+
+.social{
+  text-align: center;
+  padding-top: 50px;
+  
+}
+.social ul li a{
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.footer-text{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.footer-text p{
+  color: #fff;
+  font-size: 18px;
+  font-style: italic;
+}
+
+/**************************************************************************  
+                      Responsive design start from hear
+***************************************************************************/
+@media screen and (max-width:850px) {
+
+  /************ header responsive start ************/
+
+  .content h1{
+    
+   text-align: left;
+    
+    font-size: 40px;
+  }
+  .content h4{
+    text-align: left;
+  }
+  
+  .content h2{
+    text-align: left;
+    padding-left: 0px;
+    font-size: 25px;
+    }
+  .content h3{
+      text-align: left;
+     padding-left: 0px;
+      font-size: 25px;
+      }
+      .content h1,h4{
+        text-align:left;
+      
+      }
+
+ 
+
+
+}
+
+@media screen and (max-width:770px) {
+  
+  
+  .progressbar {
+    margin: auto;
+  }
+  .images{
+
+    height: 80%;
+    width: 80%;
+    
+  }
+  .gellaey-image{
+    padding-left: 15%;
+  }
+
+
+}
+
+@media screen and (max-width:600px) {
+
+  /************ header responsive start ************/
+
+  .content h1{
+    padding-left: 0px;
+     font-size: 30px;
+   }
+   .content h2{
+    
+    font-size: 20px;
+    }
+  .content h3{
+     
+      font-size: 20px;
+      }
+
+      .content h4{
+        padding-left: 0px;
+      }
+
+ /************ footer responsive start ************/
+
+ .social ul li a{
+   margin-top: 5px;
+   letter-spacing: 1px;
+ }
+}
