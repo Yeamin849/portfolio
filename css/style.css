@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*===================== banner part design start form hear =============*/
+.banner {
+    overflow: hidden;
+}
+
+.header {
+    position: relative;
+
+}
+.header_content img{
+   width: 100%;
+   height: 100%;
+   
+}
+
+.overly {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+   
+}
+
+.my_intro h1 {
+    font-size: 60px;
+    padding: 10px 0px;
+
+}
+
+.my_intro p {
+    letter-spacing: 3px;
+}
+
+.my_intro a {
+    margin-top: 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    background: green;
+    width: 120px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.my_intro a:hover {
+    background: transparent;
+    border: 1px solid green;
+    color: tomato;
+    transition: 0.4s;
+}
+/*===================== banner part design end hear =============*/
+
+/*================== image part deign form hear ===================*/
+
+#img_part {
+
+    padding-top: 80px;
+
+}
+
+/* .imgdiv{
+    height: 100%;
+    width: 100%;
+    
+    
+    overflow: hidden;
+    
+   
+} */
+.my_img {
+    padding-top: 15px;
+    width: 60%;
+    height: 90%;
+    border-radius: 50%;
+    z-index: 2;
+    border: 5px solid rgb(183, 216, 183);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: auto;
+    display: block;
+
+}
+
+.hr {
+    border: 3px solid green;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 150px;
+    z-index: 2;
+}
+
+/*================== image part deign end hear ===================*/
+
+/*====================== info_cart part dsign form hear  ================*/
+#card_area {
+    padding: 20px 0px;
+}
+
+.card_1{
+    /* border-right: 1px solid rgb(110, 109, 109); */
+    padding: 50px 0px;
+    
+}
+.card_1 a{
+    color: black;
+    text-decoration: none;
+}
+.Cardhr_design{
+    border: 1px solid red;
+    width: 15%;
+}
+
+/*====================== info_cart part dsign end hear  ================*/
+
+/*====================== resume part dsign start form hear  ================*/
+#resume_part {
+    padding: 50px 0px;
+}
