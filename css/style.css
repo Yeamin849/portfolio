@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    
 }
 
 a {
@@ -40,17 +41,18 @@ h4 {
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
-   
+    
 }
 
-.my_intro h1 {
+.my_intro h1{
     font-size: 60px;
     padding: 10px 0px;
 
 }
 
-.my_intro p {
-    letter-spacing: 3px;
+.ticker{
+    font-size: 30px;
+    margin-left: 10px;
 }
 
 .my_intro a {
