@@ -1,13 +1,15 @@
 * {
     margin: 0px;
     padding: 0px;
-    
+    box-sizing: border-box;
 }
 
 a {
     text-decoration: none;
 }
-
+li{
+    list-style: none;
+}
 h1 {
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -18,6 +20,7 @@ h3,
 h4 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 
 /*===================== banner part design start form hear =============*/
 .banner {
@@ -30,7 +33,7 @@ h4 {
 }
 .header_content img{
    width: 100%;
-   height: 100%;
+   height: auto;
    
 }
 
@@ -82,34 +85,24 @@ h4 {
     padding-top: 80px;
 
 }
-
-/* .imgdiv{
-    height: 100%;
-    width: 100%;
-    
-    
-    overflow: hidden;
-    
-   
-} */
 .my_img {
-    padding-top: 15px;
-    width: 60%;
-    height: 90%;
+    /* padding-top: 15px;
+    width: 100%;
+    height: auto; */
     border-radius: 50%;
     z-index: 2;
-    border: 5px solid rgb(183, 216, 183);
+    border: 5px solid #5988aa;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    margin: auto;
-    display: block;
+    /* margin: auto;
+    display: block; */
 
 }
 
 .hr {
-    border: 3px solid green;
+    border: 3px solid #275372;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    margin-top: 150px;
+    margin-top: 200px;
     z-index: 2;
 }
 
@@ -139,4 +132,19 @@ h4 {
 /*====================== resume part dsign start form hear  ================*/
 #resume_part {
     padding: 50px 0px;
+}
+#footer_area {
+    padding: 50px 0px;
+    background-color:#051F30;
+    
+}
+#footer_area ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+#footer_area ul li {
+    float: left;
+    margin: 0 20px;
 }
