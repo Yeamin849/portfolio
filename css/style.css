@@ -7,9 +7,7 @@
 a {
     text-decoration: none;
 }
-li{
-    list-style: none;
-}
+
 h1 {
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -147,4 +145,5 @@ h4 {
 #footer_area ul li {
     float: left;
     margin: 0 20px;
+    list-style: none;
 }
