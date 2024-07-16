@@ -11,6 +11,7 @@ a {
 h1 {
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 h2,
@@ -19,39 +20,37 @@ h4 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.hr_for_h1 {
+    height: 6px;
+    background-color: green;
+    border: none;
+    margin-bottom: 50px;
+}
 
 /*===================== banner part design start form hear =============*/
-.banner {
-    overflow: hidden;
-}
 
-.header {
-    position: relative;
+#banner {
+    background-color: #051F30;
+    color: #fff;
 
 }
-.header_content img{
-   width: 100%;
-   height: auto;
-   
+
+#banner img {
+    height: auto;
+    width: 400px;
 }
 
-.overly {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    
+.my_intro {
+    padding-top: 80px;
 }
 
-.my_intro h1{
+.my_intro h1 {
     font-size: 60px;
     padding: 10px 0px;
 
 }
 
-.ticker{
+.ticker {
     font-size: 30px;
     margin-left: 10px;
 }
@@ -74,76 +73,118 @@ h4 {
     color: tomato;
     transition: 0.4s;
 }
-/*===================== banner part design end hear =============*/
 
-/*================== image part deign form hear ===================*/
-
-#img_part {
-
-    padding-top: 80px;
-
+/*====================== about_part dsign form hear  ================*/
+#about_part {
+    padding: 50px 0px;
+    background-color: antiquewhite;
 }
-.my_img {
-    /* padding-top: 15px;
+
+#about_part img {
+    height: auto;
     width: 100%;
-    height: auto; */
-    border-radius: 50%;
-    z-index: 2;
-    border: 5px solid #5988aa;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    /* margin: auto;
-    display: block; */
-
-}
-
-.hr {
-    border: 3px solid #275372;
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    margin-top: 200px;
     z-index: 2;
+    border-radius: 10px;
 }
 
-/*================== image part deign end hear ===================*/
-
-/*====================== info_cart part dsign form hear  ================*/
-#info_area {
-    padding: 20px 0px;
+.about_me {
+    padding-left: 100px;
 }
 
-.card_1{
+.card_1 {
     /* border-right: 1px solid rgb(110, 109, 109); */
     padding: 50px 0px;
-    
+
 }
-.card_1 a{
+
+.card_1 a {
     color: black;
     text-decoration: none;
 }
-.Cardhr_design{
+
+.Cardhr_design {
     border: 1px solid red;
     width: 15%;
 }
 
-/*====================== info_cart part dsign end hear  ================*/
-
 /*====================== resume part dsign start form hear  ================*/
 #resume_part {
     padding: 50px 0px;
+    background-color: aliceblue;
 }
-#footer_area {
+#resume_part h1{
+    text-align: center;
+}
+/* Services part */
+#services_area {
     padding: 50px 0px;
-    background-color:#051F30;
-    
+    background-color: azure;
+}
+#services_area h1{
+    text-align: center;
+}
+/* portfolio part */
+#portfolio_part {
+    padding: 50px 0px;
+    background-color: #e0f2fd;
+}
+#portfolio_part h1{
+    text-align: center;
+}
+
+.prortfolio_img {
+    text-align: center;
+    height: auto;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+
+.portfolio_fb_ads {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+  
+  .portfolio_fb_ads img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+
+/* footer part */
+#footer_area {
+    padding: 20px 0px;
+    background-color: #051F30;
+
+}
+.social_link{
+    text-align: end;
+}
+.social_link h4 {
+	padding-right: 100px;
 }
 #footer_area ul {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center;
+    justify-content: end;
 }
+
 #footer_area ul li {
     float: left;
     margin: 0 20px;
     list-style: none;
+}
+.contact_info p {
+	margin-bottom: 0;
+	font-size: 18px;
 }
