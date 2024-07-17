@@ -1,4 +1,10 @@
 /* common responsive */
+@media (min-width: 350px) and (max-width: 399px) {
+    .card-body {
+        margin-bottom: 20px;
+        margin-left: 5px;
+    }
+}
 @media (min-width: 400px) and (max-width: 992px) {
     .card-body {
         margin-bottom: 20px;
@@ -121,6 +127,12 @@
 }
 
 /* portfolio  */
+@media (min-width: 350px) and (max-width: 399px) {
+    #portfolio_part  .card-body {
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+}
 @media (min-width: 400px) and (max-width: 599px) {
     .portfolio_fb_ads {
         display: flex;
