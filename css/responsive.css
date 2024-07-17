@@ -1,85 +1,126 @@
 /* common responsive */
-@media (min-width: 400px) and (max-width: 992px) { 
+@media (min-width: 400px) and (max-width: 992px) {
     .card-body {
         margin-bottom: 20px;
     }
-    
+
 }
 
 
 /* banner part responsive */
-
-@media (min-width: 400px) and (max-width: 575px) { 
-    .my_intro{
+@media (min-width: 350px) and (max-width: 399px) {
+    .my_intro {
         padding-top: 50px;
         text-align: center;
     }
+
     .my_intro a {
         display: block;
         margin: auto;
         width: 40%;
     }
-    .my_intro h1{
+
+    .my_intro h1 {
+        font-size: 40px;
+        padding: 10px 0px;
+    }
+
+    #banner img {
+        height: auto;
+        width: 350px;
+    }
+
+    .ticker {
+        font-size: 25px;
+    }
+
+}
+
+@media (min-width: 400px) and (max-width: 575px) {
+    .my_intro {
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .my_intro a {
+        display: block;
+        margin: auto;
+        width: 40%;
+    }
+
+    .my_intro h1 {
         margin: auto;
         font-size: 40px;
         padding: 5px 0px;
-    
+
     }
-    
- }
- @media (min-width: 768px) and (max-width: 992px) { 
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
     .my_intro h1 {
         font-size: 45px;
         padding: 10px 0px;
     }
+
     #banner img {
         height: auto;
         width: 300px;
     }
+
     .my_intro {
         padding-top: 40px;
     }
 
 
- }
- /* about part responsive */
- @media (min-width: 600px) and (max-width: 767px) {
-    
-    #about_part img{
+}
+
+/* about part responsive */
+@media (min-width: 350px) and (max-width: 399px) {
+
+    #about_part img {
         height: auto;
         width: 80%;
     }
-    .about_img{
-        text-align: center;
-    }
- }
- @media (min-width: 400px) and (max-width: 599px) {
 
-    #about_part img{
-        height: auto;
-        width: 50%;
-    }
-    .about_img{
+    .about_img {
         text-align: center;
     }
+
     .about_me {
-        padding-left: 25px;
-    }
- }
-/* portfolio  */
-@media (min-width: 600px) and (max-width: 991px) {
-
-    .portfolio_fb_ads {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        height: auto;
-        width: 100%;
-        margin-top: 20px;
+        padding-left: 30px;
     }
 }
 
+@media (min-width: 400px) and (max-width: 599px) {
+
+    #about_part img {
+        height: auto;
+        width: 80%;
+    }
+
+    .about_img {
+        text-align: center;
+    }
+
+    .about_me {
+        padding-left: 25px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+
+    #about_part img {
+        height: auto;
+        width: 80%;
+    }
+
+    .about_img {
+        text-align: center;
+    }
+}
+
+/* portfolio  */
 @media (min-width: 400px) and (max-width: 599px) {
     .portfolio_fb_ads {
         display: flex;
@@ -91,25 +132,66 @@
         margin-top: 20px;
     }
 }
+
+@media (min-width: 600px) and (max-width: 991px) {
+    .portfolio_fb_ads {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+
 /* footer */
+@media (min-width: 350px) and (max-width: 399px) {
+    .contact_info p {
+        margin-bottom: 5px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .contact_info h4 {
+       text-align: center;
+    }
+    .social_link h4 {
+        text-align: center;
+        padding-right: 0px;
+        margin-top: 10px;
+    }
+    #footer_area ul {
+        justify-content: center;
+    }
+}
+
 @media (min-width: 400px) and (max-width: 767px) {
     .contact_info h4 {
         text-align: center;
+        
     }
-    .contact_info p{
+
+    .contact_info p {
         padding-left: 50px;
     }
-    .social_link{
+
+    .social_link {
         text-align: center;
     }
+
     .social_link h4 {
         padding-right: 0;
         margin-top: 10px;
     }
+
     #footer_area ul {
         padding: 0;
         margin: 0;
         display: flex;
         justify-content: center;
     }
+
+
 }
