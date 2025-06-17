@@ -116,7 +116,7 @@ h4 {
 #resume_part h1{
     text-align: center;
 }
-/* Services part */
+/*======================  Services part ====================== */
 #services_area {
     padding: 50px 0px;
     background-color: azure;
@@ -124,7 +124,7 @@ h4 {
 #services_area h1{
     text-align: center;
 }
-/* portfolio part */
+/*======================  portfolio part ====================== */
 #portfolio_part {
     padding: 50px 0px;
     background-color: #e0f2fd;
@@ -132,40 +132,6 @@ h4 {
 #portfolio_part h1{
     text-align: center;
 }
-
-.prortfolio_img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: auto;
-    width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    border-radius: 10px;
-    margin-top: 50px;
-}
-.prortfolio_img img{
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-.portfolio_fb_ads {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: auto;
-    width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    border-radius: 10px;
-    margin-top: 50px;
-  }
-  
-  .portfolio_fb_ads img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
 
   .project-thumb {
     cursor: pointer;
@@ -183,7 +149,7 @@ h4 {
   }
 
 
-/* footer part */
+/*======================  footer part ====================== */
 #footer_area {
     padding: 20px 0px;
     background-color: #051F30;
